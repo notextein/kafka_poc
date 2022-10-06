@@ -5,7 +5,7 @@ const { Kafka } = require('kafkajs');
 const clientId = 'my-app';
 const brokers = ['localhost:9092'];
 // this is the topic to which we want to write messages
-const topic = 'recharge-reports';
+const topic = 'topic_name';
 
 // create a new consumer from the kafka client, and set its group ID
 // the group ID helps Kafka keep track of the messages that this client
