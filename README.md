@@ -16,6 +16,14 @@ cd /opt/kafka_2.13-2.8.1/bin
 
 kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic topic_name
 
-# list topics
+## list topics
 
 kafka-topics.sh --list --zookeeper zookeeper:2181
+
+## install packages
+
+npm i
+
+## run the code
+
+npm run start
